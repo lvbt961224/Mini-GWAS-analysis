@@ -1,7 +1,7 @@
 # Mini-GWAS Analysis
 A reproducible mini-GWAS project covering genotype quality control, population structure, association testing, and visualization using PLINK and R.
 
-## Project objective
+## Objective
 The objective of this project is to develop practical skills in human genetic data analysis by implementing a complete introductory GWAS workflow.
 
 The analysis covers:
@@ -23,7 +23,6 @@ https://github.com/MareesAT/GWA_tutorial
 - R
 - Linux
 - Git/GitHub
-
 
 ## Note
 The initial analysis uses the dataset and workflow provided with the Marees et al. GWAS tutorial. The purpose of this project is methodological training rather than biological discovery.
