@@ -1,0 +1,25 @@
+# Raw and processed genotype data
+data/raw/*
+data/processed/*
+
+# Large GWAS output files
+results/qc/*
+results/gwas/*
+
+# Temporary files
+*.log
+*.tmp
+*.nosex
+
+# R session files
+.Rhistory
+.RData
+.Rproj.user/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Python cache (for future projects)
+__pycache__/
+*.pyc
