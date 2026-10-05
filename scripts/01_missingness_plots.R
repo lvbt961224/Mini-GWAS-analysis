@@ -16,7 +16,7 @@
 # 1. Set directories
 # -----------------------------
 
-input_dir <- "~/Bioinformatics/Marees-GWA_tutorial/1_QC_GWAS"
+input_dir <- "data/processed"
 
 output_dir <- "~/Bioinformatics/Mini-GWAS-analysis/results/figures/qc"
 

@@ -5,8 +5,8 @@
 # This script documents the missingness-filtering workflow used in the Mini-GWAS analysis project.
 #
 
-DATA_DIR="$HOME/Bioinformatics/Marees-GWA_tutorial/1_QC_GWAS"
-INPUT="$DATA_DIR/HapMap_3_r3_1"
+DATA_DIR="$HOME/Bioinformatics/Mini-GWAS-analysis/data/processed"
+INPUT="$HOME/Bioinformatics/Mini-GWAS-analysis/data/raw/HapMap_3_r3_1"
 
 # ------------------------------------------------------------
 # Step 1: Measure baseline missingness

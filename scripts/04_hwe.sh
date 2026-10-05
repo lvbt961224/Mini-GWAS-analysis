@@ -29,7 +29,7 @@ set -euo pipefail
 # 1. Define directories and software
 # --------------------------------------------------
 
-DATA_DIR="$HOME/Bioinformatics/Marees-GWA_tutorial/1_QC_GWAS"
+DATA_DIR="$HOME/Bioinformatics/Mini-GWAS-analysis/data/processed"
 PROJECT_DIR="$HOME/Bioinformatics/Mini-GWAS-analysis"
 
 PLINK="$HOME/Bioinformatics-tools/PLINK1.9/plink"
