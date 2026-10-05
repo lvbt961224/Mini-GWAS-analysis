@@ -5,8 +5,8 @@
 #   HWE_check_zoom.hwe
 #
 # Output:
-#   results/figures/qc/hwe_distribution.png
-#   results/figures/qc/hwe_distribution_zoom.png
+#   results/qc/step04_hwe/hwe_distribution.png
+#   results/qc/step04_hwe/hwe_distribution_zoom.png
 #
 # The full HWE distribution is plotted first.
 # A second plot focuses on HWE p-values below 1e-5.
@@ -17,7 +17,7 @@
 
 input_dir <- "data/processed"
 
-output_dir <- "~/Bioinformatics/Mini-GWAS-analysis/results/figures/qc"
+output_dir <- "~/Bioinformatics/Mini-GWAS-analysis/results/qc/step04_hwe"
 
 dir.create(
   output_dir,

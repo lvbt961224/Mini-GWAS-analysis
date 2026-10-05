@@ -4,7 +4,7 @@
 #   MAF_check.frq
 #
 # Output:
-#   results/figures/qc/maf_distribution.png
+#   results/qc/step03_maf/maf_distribution.png
 
 # -----------------------------
 # 1. Set directories
@@ -12,7 +12,7 @@
 
 input_dir <- "data/processed"
 
-output_dir <- "~/Bioinformatics/Mini-GWAS-analysis/results/figures/qc"
+output_dir <- "~/Bioinformatics/Mini-GWAS-analysis/results/qc/step03_maf"
 
 dir.create(
   output_dir,

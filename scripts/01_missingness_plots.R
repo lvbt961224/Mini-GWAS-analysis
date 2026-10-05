@@ -9,8 +9,8 @@
 #   missingness_baseline.lmiss
 #
 # Output:
-#   results/figures/qc/missingness_individual.png
-#   results/figures/qc/missingness_snp.png
+#   results/qc/step01_missingness/missingness_individual.png
+#   results/qc/step01_missingness/missingness_snp.png
 
 # -----------------------------
 # 1. Set directories
@@ -18,7 +18,7 @@
 
 input_dir <- "data/processed"
 
-output_dir <- "~/Bioinformatics/Mini-GWAS-analysis/results/figures/qc"
+output_dir <- "~/Bioinformatics/Mini-GWAS-analysis/results/qc/step01_missingness"
 
 dir.create(
   output_dir,

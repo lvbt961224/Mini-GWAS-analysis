@@ -2,9 +2,25 @@
 data/raw/*
 data/processed/*
 
-# Large GWAS output files
-results/qc/*
-results/gwas/*
+# Large generated GWAS output files
+results/gwas/**/*.bed
+results/gwas/**/*.bim
+results/gwas/**/*.fam
+results/gwas/**/*.log
+results/gwas/**/*.hh
+
+# Keep QC figures and small summary tables under version control.
+# Ignore large/intermediate QC files if they are generated here.
+results/qc/**/*.bed
+results/qc/**/*.bim
+results/qc/**/*.fam
+results/qc/**/*.hwe
+results/qc/**/*.frq
+results/qc/**/*.imiss
+results/qc/**/*.lmiss
+results/qc/**/*.log
+results/qc/**/*.hh
+results/qc/**/*.sexcheck
 
 # Temporary files
 *.log

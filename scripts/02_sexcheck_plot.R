@@ -4,7 +4,7 @@
 #   sexcheck_baseline.sexcheck
 #
 # Output:
-#   results/figures/qc/sex_check.png
+#   results/qc/step02_sex_discrepancy/sex_check.png
 
 # -----------------------------
 # 1. Set directories
@@ -12,7 +12,7 @@
 
 input_dir <- "data/processed"
 
-output_dir <- "~/Bioinformatics/Mini-GWAS-analysis/results/figures/qc"
+output_dir <- "~/Bioinformatics/Mini-GWAS-analysis/results/qc/step02_sex_discrepancy"
 
 dir.create(
   output_dir,

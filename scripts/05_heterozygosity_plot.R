@@ -22,14 +22,14 @@ upper_cutoff <- het_mean + 3 * het_sd
 
 # Create output directory if needed
 dir.create(
-  "results/figures/qc",
+  "results/qc/step05_heterozygosity",
   recursive = TRUE,
   showWarnings = FALSE
 )
 
 # Plot
 png(
-  "results/figures/qc/heterozygosity_distribution.png",
+  "results/qc/step05_heterozygosity/heterozygosity_distribution.png",
   width = 1200,
   height = 900,
   res = 150
